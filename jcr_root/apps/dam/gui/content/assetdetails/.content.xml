@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <actions jcr:primaryType="nt:unstructured">
+            <preview
+                granite:rel="customization-preview-asset-toolbar-action"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/anchorbutton"
+                href="http://ww.google.com"
+                icon="viewOn"
+                target="_blank"
+                text="Preview"
+                variant="actionBar"/>
+        </actions>
+        <head jcr:primaryType="nt:unstructured">
+            <clientlibs
+                jcr:primaryType="nt:unstructured"
+                categories="[dam.gui.assetdetails.coral,cq.siteadmin.common,dam.gui.actions.coral,dam.gui.assetdetails.info.coral,dam.gui.annotation.coral,dam.gui.admin.coral,dam.gui.components.admin.adhocassetshare.coral,granite.shared,dam.gui.coral.video,dam.gui.admin.imagemaps,dam.gui.admin.publishasset.coral,dam.gui.admin.unpublishasset.coral,dam.gui.admin.desktop.coral,cq.gui.coral.common.admin.timeline,dam.gui.coral.backhref,dam.gui.coral.stock.actions,customization.preview.asset]"/>
+        </head>
+    </jcr:content>
+</jcr:root>

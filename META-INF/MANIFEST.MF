@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Content-Package-Roots: /apps/dam/gui/content/assetdetails,/apps/custom
+ ization/clientlibs/preview-asset
+Content-Package-Type: application
+Content-Package-Id: Tutorials:preview-asset-toolbar-action
+

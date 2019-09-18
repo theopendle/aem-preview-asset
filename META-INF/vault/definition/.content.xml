@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2019-09-18T20:30:18.699+02:00"
+    jcr:createdBy="admin"
+    jcr:description=""
+    jcr:lastModified="{Date}2019-09-18T20:30:18.699+02:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="2"
+    builtWith="Adobe Experience Manager-6.5.1.0"
+    group="Tutorials"
+    lastUnwrapped="{Date}2019-09-18T20:30:18.699+02:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2019-09-18T20:30:18.699+02:00"
+    lastWrappedBy="admin"
+    name="preview-asset-toolbar-action"
+    version="">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/dam/gui/content/assetdetails"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/customization/clientlibs/preview-asset"
+            rules="[]"/>
+    </filter>
+</jcr:root>
